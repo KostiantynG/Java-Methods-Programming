@@ -44,6 +44,7 @@ public class Account {
 	}
 
 	public void addAmount(double amount) {
-		/* данный метод в общем случае можно объ€вл€ть в другом классе */ this.amount += amount;
+		/* данный метод в общем случае можно объ€вл€ть в другом классе */
+		this.amount += amount;
 	}
 }
