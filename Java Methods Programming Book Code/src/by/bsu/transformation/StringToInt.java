@@ -11,6 +11,7 @@ public class StringToInt {
 											 * создает Integer, для
 											 * преобразования применяется редко
 											 */
+			System.out.println(value1 + value2 + value3 + value4);
 		} catch (NumberFormatException e) {
 			System.err.println("Неверный формат числа " + e);
 		}
