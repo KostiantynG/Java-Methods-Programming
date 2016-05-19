@@ -1,7 +1,7 @@
 package by.bsu.simple.action;
 
 public class SloganAction {
-	public void printSlogan() { // вывод строки
+	public void printSlogan() { // РІС‹РІРѕРґ СЃС‚СЂРѕРєРё
 		System.out.println("Enabling the Information Age");
 	}
 }

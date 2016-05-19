@@ -5,20 +5,20 @@ import by.bsu.transfer.bean.Account;
 public class TransferAction {
 	private double transactionAmount;
 
-	public TransferAction(double amount) { // конструктор по умолчанию не
-											// предоставляется
+	public TransferAction(double amount) { // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ РЅРµ
+		// РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ
 		if (amount > 0) {
 			this.transactionAmount = amount;
 		} else {
-			throw new IllegalArgumentException(); // или собственное исключение
+			throw new IllegalArgumentException(); // РёР»Рё СЃРѕР±СЃС‚РІРµРЅРЅРѕРµ РёСЃРєР»СЋС‡РµРЅРёРµ
 		}
 	}
 
-	public boolean transferIntoAccount(Account from, Account to) { // определение
-																	// остатка
-		double demand = from.getAmount() - transactionAmount; // проверка
-																// остатка и
-																// перевод суммы
+	public boolean transferIntoAccount(Account from, Account to) { // РѕРїСЂРµРґРµР»РµРЅРёРµ
+		// РѕСЃС‚Р°С‚РєР°
+		double demand = from.getAmount() - transactionAmount; // РїСЂРѕРІРµСЂРєР°
+		// РѕСЃС‚Р°С‚РєР° Рё
+		// РїРµСЂРµРІРѕРґ СЃСѓРјРјС‹
 		if (demand >= 0) {
 			from.setAmount(demand);
 			to.addAmount(transactionAmount);
@@ -30,5 +30,5 @@ public class TransferAction {
 
 	public double getTransactionAmount() {
 		return transactionAmount;
-	} // вставить метод удержания процента при переводе
+	} // РІСЃС‚Р°РІРёС‚СЊ РјРµС‚РѕРґ СѓРґРµСЂР¶Р°РЅРёСЏ РїСЂРѕС†РµРЅС‚Р° РїСЂРё РїРµСЂРµРІРѕРґРµ
 }

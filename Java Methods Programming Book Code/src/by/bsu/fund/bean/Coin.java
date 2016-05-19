@@ -1,8 +1,8 @@
 package by.bsu.fund.bean;
 
 public class Coin {
-	private double diameter; // правильная инкапсуляция
-	private double weight; // правильная инкапсуляция
+	private double diameter; // РїСЂР°РІРёР»СЊРЅР°СЏ РёРЅРєР°РїСЃСѓР»СЏС†РёСЏ
+	private double weight; // РїСЂР°РІРёР»СЊРЅР°СЏ РёРЅРєР°РїСЃСѓР»СЏС†РёСЏ
 
 	public double getDiameter() {
 		return diameter;
@@ -12,11 +12,11 @@ public class Coin {
 		if (value > 0) {
 			diameter = value;
 		} else {
-			System.out.println("Oтрицательный диаметр!");
+			System.out.println("OС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№ РґРёР°РјРµС‚СЂ!");
 		}
 	}
 
-	public double getWeight() { // правильное имя метода
+	public double getWeight() { // РїСЂР°РІРёР»СЊРЅРѕРµ РёРјСЏ РјРµС‚РѕРґР°
 		return weight;
 	}
 

@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class RunScanner {
 	public static void main(String[] args) {
-		System.out.print("Введите Ваше имя и нажмите <Enter>:");
+		System.out.print("Р’РІРµРґРёС‚Рµ Р’Р°С€Рµ РёРјСЏ Рё РЅР°Р¶РјРёС‚Рµ <Enter>:");
 		Scanner scan = new Scanner(System.in);
 		String name = scan.next();
-		System.out.println("Привет, " + name + "!");
+		System.out.println("РџСЂРёРІРµС‚, " + name + "!");
 		scan.close();
 	}
 }

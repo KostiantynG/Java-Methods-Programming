@@ -3,7 +3,7 @@ package by.bsu.arg;
 public class PrintArguments {
 	public static void main(String[] args) {
 		for (String str : args) {
-			System.out.printf("Ağãóìåíò-> %s%n", str);
+			System.out.printf("AÑ€Ğ³ÑƒĞ¼ĞµĞ½Ñ‚-> %s%n", str);
 		}
 	}
 }

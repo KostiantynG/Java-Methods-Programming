@@ -10,13 +10,13 @@ public class Runner {
 		TransferAction action = new TransferAction(52.0);
 		boolean complete = action.transferIntoAccount(from, to);
 		if (complete) {
-			System.out.println("Сумма: " + action.getTransactionAmount() + " переведена успешно");
-			System.out.print("На счету клиента ID=" + to.getId());
-			System.out.println(" находится сумма: " + to.getAmount());
+			System.out.println("РЎСѓРјРјР°: " + action.getTransactionAmount() + " РїРµСЂРµРІРµРґРµРЅР° СѓСЃРїРµС€РЅРѕ");
+			System.out.print("РќР° СЃС‡РµС‚Сѓ РєР»РёРµРЅС‚Р° ID=" + to.getId());
+			System.out.println(" РЅР°С…РѕРґРёС‚СЃСЏ СЃСѓРјРјР°: " + to.getAmount());
 		} else {
-			System.out.println("Транзакция не выполнена.");
-			System.out.print("На счету клиента ID=" + from.getId());
-			System.out.println(" недостаточно средств.");
+			System.out.println("РўСЂР°РЅР·Р°РєС†РёСЏ РЅРµ РІС‹РїРѕР»РЅРµРЅР°.");
+			System.out.print("РќР° СЃС‡РµС‚Сѓ РєР»РёРµРЅС‚Р° ID=" + from.getId());
+			System.out.println(" РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ СЃСЂРµРґСЃС‚РІ.");
 		}
 	}
 }

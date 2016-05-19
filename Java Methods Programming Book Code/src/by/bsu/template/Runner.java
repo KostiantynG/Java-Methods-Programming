@@ -1,25 +1,25 @@
 package by.bsu.template;
 
 public class Runner {
-	public static void main(String[] args) { // параметризация типом Integer
-		Message<Integer> ob1 = new Message<Integer>();
-		ob1.setValue(1); // возможен только тип Integer для метода setValue
+	public static void main(String[] args) { // РїР°СЂР°РјРµС‚СЂРёР·Р°С†РёСЏ С‚РёРїРѕРј Integer
+		Message<Integer> ob1 = new Message<>();
+		ob1.setValue(1); // РІРѕР·РјРѕР¶РµРЅ С‚РѕР»СЊРєРѕ С‚РёРї Integer РґР»СЏ РјРµС‚РѕРґР° setValue
 		int v1 = ob1.getValue();
-		System.out.println(v1); // параметризация типом String
-		Message<String> ob2 = new Message<String>("Java");
+		System.out.println(v1); // РїР°СЂР°РјРµС‚СЂРёР·Р°С†РёСЏ С‚РёРїРѕРј String
+		Message<String> ob2 = new Message<>("Java");
 		String v2 = ob2.getValue();
-		System.out.println(v2); // ob1 = ob2; // ошибка компиляции –
-								// параметризация нековариантна
+		System.out.println(v2); // ob1 = ob2; // РѕС€РёР±РєР° РєРѕРјРїРёР»СЏС†РёРё вЂ“
+		// РїР°СЂР°РјРµС‚СЂРёР·Р°С†РёСЏ РЅРµРєРѕРІР°СЂРёР°РЅС‚РЅР°
 
-		// параметризация по умолчанию – Object
-		Message ob3 = new Message(); // warning – raw type ob3 = ob1; // нет
-										// ошибки компиляции – нет
-										// параметризации
+		// РїР°СЂР°РјРµС‚СЂРёР·Р°С†РёСЏ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ вЂ“ Object
+		Message ob3 = new Message(); // warning вЂ“ raw type ob3 = ob1; // РЅРµС‚
+		// РѕС€РёР±РєРё РєРѕРјРїРёР»СЏС†РёРё вЂ“ РЅРµС‚
+		// РїР°СЂР°РјРµС‚СЂРёР·Р°С†РёРё
 		System.out.println(ob3.getValue());
 		ob3.setValue(new Byte((byte) 1));
 		ob3.setValue("Java SE 7");
 		System.out.println(ob3);
-		/* выводится тип объекта, а не тип параметризации */ ob3.setValue(71);
+		/* РІС‹РІРѕРґРёС‚СЃСЏ С‚РёРї РѕР±СЉРµРєС‚Р°, Р° РЅРµ С‚РёРї РїР°СЂР°РјРµС‚СЂРёР·Р°С†РёРё */ ob3.setValue(71);
 		System.out.println(ob3);
 		ob3.setValue(null);
 	}

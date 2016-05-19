@@ -1,17 +1,17 @@
 package by.bsu.simple;
 
 public class FirstProgram {
-	public static void main(String[] args) { // объявление и создание объекта
-												// firstObject
-		SloganAction firstObject = new SloganAction(); // вызов метода,
-														// содержащего вывод
-														// строки
+	public static void main(String[] args) { // РѕР±СЉСЏРІР»РµРЅРёРµ Рё СЃРѕР·РґР°РЅРёРµ РѕР±СЉРµРєС‚Р°
+		// firstObject
+		SloganAction firstObject = new SloganAction(); // РІС‹Р·РѕРІ РјРµС‚РѕРґР°,
+		// СЃРѕРґРµСЂР¶Р°С‰РµРіРѕ РІС‹РІРѕРґ
+		// СЃС‚СЂРѕРєРё
 		firstObject.printSlogan();
 	}
 }
 
 class SloganAction {
-	void printSlogan() { // определение метода
-		System.out.println("Enabling the Information Age");// вывод строки
+	void printSlogan() { // РѕРїСЂРµРґРµР»РµРЅРёРµ РјРµС‚РѕРґР°
+		System.out.println("Enabling the Information Age");// РІС‹РІРѕРґ СЃС‚СЂРѕРєРё
 	}
 }

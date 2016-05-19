@@ -4,12 +4,12 @@ public class ReadCharRunner {
 	public static void main(String[] args) {
 		int x;
 		try {
-			System.out.print("Введте символ и нажмите <Enter>: ");
+			System.out.print("Р’РІРµРґС‚Рµ СЃРёРјРІРѕР» Рё РЅР°Р¶РјРёС‚Рµ <Enter>: ");
 			x = System.in.read();
 			char c = (char) x;
-			System.out.println("Код символа: " + c + " =" + x);
+			System.out.println("РљРѕРґ СЃРёРјРІРѕР»Р°: " + c + " =" + x);
 		} catch (java.io.IOException e) {
-			System.err.println("ошибка ввода " + e);
+			System.err.println("РѕС€РёР±РєР° РІРІРѕРґР° " + e);
 		}
 	}
 }

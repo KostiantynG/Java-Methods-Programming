@@ -4,12 +4,12 @@ public class ComparisonStrings {
 	public static void main(String[] args) {
 		String s1, s2;
 		s1 = "Java";
-		s2 = s1; // переменная ссылается на ту же строку
-		System.out.println("сравнение ссылок " + (s1 == s2)); // результат true
-		// создание нового объекта
-		s2 = new String("Java"); // эквивалентно s2 = new String(s1);
-		System.out.println("сравнение ссылок " + (s1 == s2)); // результат false
-		System.out.println("сравнение значений " + s1.equals(s2)); // результат
-																	// true
+		s2 = s1; // РїРµСЂРµРјРµРЅРЅР°СЏ СЃСЃС‹Р»Р°РµС‚СЃСЏ РЅР° С‚Сѓ Р¶Рµ СЃС‚СЂРѕРєСѓ
+		System.out.println("СЃСЂР°РІРЅРµРЅРёРµ СЃСЃС‹Р»РѕРє: " + (s1 == s2)); // СЂРµР·СѓР»СЊС‚Р°С‚ true
+		// СЃРѕР·РґР°РЅРёРµ РЅРѕРІРѕРіРѕ РѕР±СЉРµРєС‚Р°
+		s2 = new String("Java"); // СЌРєРІРёРІР°Р»РµРЅС‚РЅРѕ s2 = new String(s1);
+		System.out.println("СЃСЂР°РІРЅРµРЅРёРµ СЃСЃС‹Р»РѕРє " + (s1 == s2)); // СЂРµР·СѓР»СЊС‚Р°С‚ false
+		System.out.println("СЃСЂР°РІРЅРµРЅРёРµ Р·РЅР°С‡РµРЅРёР№ " + s1.equals(s2)); // СЂРµР·СѓР»СЊС‚Р°С‚
+		// true
 	}
 }

@@ -6,11 +6,11 @@ public class CompareCoin {
 	public void compareDiameter(Coin first, Coin second) {
 		double delta = first.getDiameter() - second.getDiameter();
 		if (delta == 0) {
-			System.out.println("Монеты имеют одинаковый диаметр");
+			System.out.println("РњРѕРЅРµС‚С‹ РёРјРµСЋС‚ РѕРґРёРЅР°РєРѕРІС‹Р№ РґРёР°РјРµС‚СЂ");
 		} else if (delta > 0) {
-			System.out.println("Первая монета больше второй на " + delta);
+			System.out.println("РџРµСЂРІР°СЏ РјРѕРЅРµС‚Р° Р±РѕР»СЊС€Рµ РІС‚РѕСЂРѕР№ РЅР° " + delta);
 		} else {
-			System.out.println("Вторая монета больше первой на " + -delta);
+			System.out.println("Р’С‚РѕСЂР°СЏ РјРѕРЅРµС‚Р° Р±РѕР»СЊС€Рµ РїРµСЂРІРѕР№ РЅР° " + -delta);
 		}
 	}
 }

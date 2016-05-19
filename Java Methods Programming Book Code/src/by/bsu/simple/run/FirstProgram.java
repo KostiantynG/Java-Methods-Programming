@@ -1,6 +1,6 @@
 package by.bsu.simple.run;
 
-import by.bsu.simple.action.SloganAction; // подключение класса из пакета 
+import by.bsu.simple.action.SloganAction; // РїРѕРґРєР»СЋС‡РµРЅРёРµ РєР»Р°СЃСЃР° РёР· РїР°РєРµС‚Р°
 
 public class FirstProgram {
 	public static void main(String[] args) {

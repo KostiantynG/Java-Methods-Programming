@@ -6,8 +6,8 @@ import by.bsu.fund.action.CompareCoin;
 public class Runner {
 	public static void main(String[] args) {
 		Coin ob1 = new Coin();
-		ob1.setDiameter(-0.11); // сообщение о неправильных данных
-		ob1.setDiameter(0.12); // корректно
+		ob1.setDiameter(-0.11); // СЃРѕРѕР±С‰РµРЅРёРµ Рѕ РЅРµРїСЂР°РІРёР»СЊРЅС‹С… РґР°РЅРЅС‹С…
+		ob1.setDiameter(0.12); // РєРѕСЂСЂРµРєС‚РЅРѕ
 		ob1.setWeight(150);
 		Coin ob2 = new Coin();
 		ob2.setDiameter(0.21);

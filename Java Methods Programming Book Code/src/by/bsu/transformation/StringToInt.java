@@ -2,18 +2,18 @@ package by.bsu.transformation;
 
 public class StringToInt {
 	public static void main(String[] args) {
-		String arg = "71"; // 071 или 0x71или 0b1000111
+		String arg = "71"; // 071 РёР»Рё 0x71РёР»Рё 0b1000111
 		try {
-			int value1 = Integer.parseInt(arg); // возвращает int
-			int value2 = Integer.valueOf(arg); // возвращает Integer
-			int value3 = Integer.decode(arg); // возвращает Integer
+			int value1 = Integer.parseInt(arg); // РІРѕР·РІСЂР°С‰Р°РµС‚ int
+			int value2 = Integer.valueOf(arg); // РІРѕР·РІСЂР°С‰Р°РµС‚ Integer
+			int value3 = Integer.decode(arg); // РІРѕР·РІСЂР°С‰Р°РµС‚ Integer
 			int value4 = new Integer(arg); /*
-											 * создает Integer, для
-											 * преобразования применяется редко
+											 * СЃРѕР·РґР°РµС‚ Integer, РґР»СЏ
+											 * РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ РїСЂРёРјРµРЅСЏРµС‚СЃСЏ СЂРµРґРєРѕ
 											 */
 			System.out.println(value1 + value2 + value3 + value4);
 		} catch (NumberFormatException e) {
-			System.err.println("Неверный формат числа " + e);
+			System.err.println("РќРµРІРµСЂРЅС‹Р№ С„РѕСЂРјР°С‚ С‡РёСЃР»Р° " + e);
 		}
 	}
 }
