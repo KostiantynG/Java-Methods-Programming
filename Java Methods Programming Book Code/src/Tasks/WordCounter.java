@@ -1,4 +1,4 @@
-package by.bsu.console;
+package Tasks;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package by.bsu.console;
+package Tasks;
 
 public class EvenOrOddOrDevByThree {
     public static void main(String[] args) {
