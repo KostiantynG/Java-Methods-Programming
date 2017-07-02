@@ -1,11 +1,13 @@
 package by.bsu.collect;
 
-/* # 23 # применение некоторых алгоритмов # AlgorithmDemo.java */
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
+/**
+ * # 23 # применение некоторых алгоритмов # AlgorithmDemo.java
+ */
 
 public class AlgoritmDemo {
     public static void main(String[] args) {
@@ -20,7 +22,7 @@ public class AlgoritmDemo {
 
         ArrayList<Integer> list = new ArrayList<>();
         Collections.addAll(list, 1, 2, 3, 4, 5);
-        System.out.println ("list");
+        System.out.println("list");
         print(list);
 
         Collections.shuffle(list);

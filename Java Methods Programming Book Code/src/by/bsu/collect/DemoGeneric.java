@@ -1,9 +1,10 @@
-package by.bsu.collection;
-
-/* # 1 # создание параметризованной коллекции # DemoGeneric.java */
-
+package by.bsu.collect;
 
 import java.util.ArrayList;
+
+/**
+ * # 1 # создание параметризованной коллекции # DemoGeneric.java
+ */
 
 public class DemoGeneric {
 

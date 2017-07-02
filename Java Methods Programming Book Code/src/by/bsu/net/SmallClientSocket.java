@@ -1,12 +1,14 @@
 package by.bsu.net;
 
-/* # 7 # получение клиентом строки # SmallClientSocket.java */
-/*Перед запуском SmallClientSocket запустить SmallServerSocket*/
-
 import java.net.Socket;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
+/**
+ * # 7 # получение клиентом строки # SmallClientSocket.java
+ * Перед запуском SmallClientSocket запустить SmallServerSocket
+ */
 
 public class SmallClientSocket {
     public static void main(String[] args) {

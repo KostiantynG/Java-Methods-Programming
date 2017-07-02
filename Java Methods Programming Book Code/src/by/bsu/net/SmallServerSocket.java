@@ -1,11 +1,13 @@
 package by.bsu.net;
 
-/* # 6 # передача клиенту строки # SmallServerSocket.java */
-
 import java.io.IOException;
 import java.io.PrintStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+
+/**
+ * # 6 # передача клиенту строки # SmallServerSocket.java
+ */
 
 public class SmallServerSocket {
     public static void main(String[] args) {

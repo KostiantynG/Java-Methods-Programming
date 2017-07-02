@@ -1,5 +1,9 @@
 package by.bsu.console;
 
+/**
+ * # 13 # чтение символа из потока System.in # ReadCharRunner.java
+ */
+
 public class ReadCharRunner {
 	public static void main(String[] args) {
 		int x;

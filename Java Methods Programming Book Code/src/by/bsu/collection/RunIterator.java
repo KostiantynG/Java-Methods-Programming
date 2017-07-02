@@ -1,9 +1,11 @@
 package by.bsu.collection;
 
-/* # 5 # методы класса ArrayList и интерфейса Iterator # RunIterator.java # FindOrder.java*/
-
 import java.util.List;
 import java.util.ArrayList;
+
+/**
+ * # 5 # методы класса ArrayList и интерфейса Iterator # RunIterator.java # FindOrder.java
+ */
 
 public class RunIterator {
     public static void main(String[] args) {

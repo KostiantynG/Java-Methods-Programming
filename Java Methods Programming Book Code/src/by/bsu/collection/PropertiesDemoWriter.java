@@ -1,11 +1,13 @@
 package by.bsu.collection;
 
-/* # 20 # создание экземпляра и файла properties # PropertiesDemoWriter.java */
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Properties;
+
+/**
+ * # 20 # создание экземпляра и файла properties # PropertiesDemoWriter.java
+ */
 
 public class PropertiesDemoWriter {
     public static void main(String[] args) {

@@ -1,11 +1,13 @@
 package by.bsu.collection;
 
-/* # 21 # загрузка файла properties в экземпляр и доступ к содержимому #
-PropertiesDemo.java */
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
+
+/**
+ * # 21 # загрузка файла properties в экземпляр и доступ к содержимому
+ * #PropertiesDemo.java
+ */
 
 public class PropertiesDemo {
     public static void main(String[] args) {

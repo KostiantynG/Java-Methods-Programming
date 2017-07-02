@@ -1,9 +1,11 @@
 package by.bsu.net;
 
-/* # 1 # вывод IP-адреса компьютера и Интернет-ресурса # InetLogic.java*/
-
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+
+/**
+ * # 1 # вывод IP-адреса компьютера и Интернет-ресурса # InetLogic.java
+ */
 
 public class InetLogic {
     public static void main(String[] args) {

@@ -1,8 +1,11 @@
 package by.bsu.enummap;
 
-/* # 18 # пример работы с классом EnumMap # GASStation.java # Gases.java */
 
 import java.util.EnumMap;
+
+/**
+ * # 18 # пример работы с классом EnumMap # GASStation.java # Gases.java
+ */
 
 public class Gases {
     public static void main(String[] args) {

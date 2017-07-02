@@ -1,9 +1,11 @@
 package by.bsu.collection;
 
-/* # 12 # двунаправленный список и очередь # OrderQueueAction.java */
-
 import java.util.LinkedList;
 import java.util.Queue;
+
+/**
+ * # 12 # двунаправленный список и очередь # OrderQueueAction.java
+ */
 
 public class OrderQueueAction {
     public static void main(String[] args) {

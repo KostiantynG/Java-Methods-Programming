@@ -1,12 +1,14 @@
 package by.bsu.net;
 
-/* # 4 # чтение документа из Интернета # ReadDocument.java */
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
+
+/**
+ * # 4 # чтение документа из Интернета # ReadDocument.java
+ */
 
 public class ReadDocument {
     public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class ReadDocument {
         try {
             url = new URL(urlName);
         } catch (MalformedURLException e) {
-        // некорректно заданы протокол, доменное имя или путь к файлу
+            // некорректно заданы протокол, доменное имя или путь к файлу
             e.printStackTrace();
         }
         if (url == null) {

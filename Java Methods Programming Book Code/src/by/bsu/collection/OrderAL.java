@@ -1,8 +1,10 @@
 package by.bsu.collection;
 
-/* # 7 # класс, наследующий список и приобретающий его свойства # Order.java */
-
 import java.util.ArrayList;
+
+/**
+ * # 7 # класс, наследующий список и приобретающий его свойства # Order.java
+ */
 
 public class OrderAL extends ArrayList<Item> {
     private int orderId;

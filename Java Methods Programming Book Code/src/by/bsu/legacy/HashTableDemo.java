@@ -1,8 +1,10 @@
 package by.bsu.legacy;
 
-/* # 19 # создание хэш-таблицы и поиск элемента по ключу # HashTableDemo.java */
-
 import java.util.*;
+
+/**
+ * # 19 # создание хэш-таблицы и поиск элемента по ключу # HashTableDemo.java
+ */
 
 public class HashTableDemo {
     public static void main(String[] args) {

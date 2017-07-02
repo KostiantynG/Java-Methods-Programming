@@ -1,8 +1,10 @@
 package by.bsu.collection;
 
-/* # 2 # некорректная(raw) и корректная коллекция # UncheckCheckRun.java */
-
 import java.util.ArrayList;
+
+/**
+ * # 2 # некорректная(raw) и корректная коллекция # UncheckCheckRun.java
+ */
 
 public class UncheckCheckRun {
     public static void main(String[] args) {

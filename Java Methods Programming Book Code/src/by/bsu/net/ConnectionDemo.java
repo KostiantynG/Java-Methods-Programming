@@ -1,11 +1,13 @@
 package by.bsu.net;
 
-/* # 5 # инфомация об Интернет-ресурсе # ConnectionDemo.java */
-
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+
+/**
+ * # 5 # инфомация об Интернет-ресурсе # ConnectionDemo.java
+ */
 
 public class ConnectionDemo {
     public static void main(String[] args) {

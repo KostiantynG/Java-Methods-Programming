@@ -1,11 +1,14 @@
 package by.bsu.comparison;
 
-/* # 8 # сортировка списка по полю, определенному в классе comparator-е #SortItemRunner.java */
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import by.bsu.collection.Item;
+
+/**
+ * # 8 # сортировка списка по полю, определенному в классе comparator-е #SortItemRunner.java
+ */
+
 public class SortItemRunner {
     public static void main(String[ ] args) {
         ArrayList<Item> p = new ArrayList<Item>() {

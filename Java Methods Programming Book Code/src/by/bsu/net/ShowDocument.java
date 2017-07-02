@@ -1,23 +1,23 @@
 package by.bsu.net;
 
-/* # 3 # запуск страницы из апплета # ShowDocument.java
-
-Метод showDocument() может содержать параметры для отображения стра-
-ницы различными способами: «_self» — выводит документ в текущий фрейм,
-«_blank» — в новое окно, «_top» — на все окно, «_parent» — в родительском
-окне, «имя_окна» — в окне с указанным именем.
-* Для корректной работы дан-ного примера апплет следует запускать из браузера, используя следующий
-HTML-документ:
-<html>
-<body align=center>
-<applet code= by.bsu.net.ShowDocument.class></applet>
-</body></html>
-*/
-
 import java.awt.Graphics;
 import java.net.MalformedURLException;
 import java.net.URL;
 import javax.swing.JApplet;
+
+/**
+ * # 3 # запуск страницы из апплета # ShowDocument.java
+ * Метод showDocument() может содержать параметры для отображения стра-
+ * ницы различными способами: «_self» — выводит документ в текущий фрейм,
+ * «_blank» — в новое окно, «_top» — на все окно, «_parent» — в родительском
+ * окне, «имя_окна» — в окне с указанным именем.
+ * Для корректной работы дан-ного примера апплет следует запускать из браузера, используя следующий
+ * HTML-документ:
+ * <html>
+ * <body align=center>
+ * <applet code= by.bsu.net.ShowDocument.class></applet>
+ * </body></html>
+ */
 
 public class ShowDocument extends JApplet {
     private URL bsu = null;

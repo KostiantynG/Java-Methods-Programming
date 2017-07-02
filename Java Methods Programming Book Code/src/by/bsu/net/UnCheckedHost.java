@@ -1,10 +1,12 @@
 package by.bsu.net;
 
-/* # 2 # присваивание фиктивного имени реальному ресурсу, заданному через IP #UnCheckedHost.java */
-
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+
+/**
+ * # 2 # присваивание фиктивного имени реальному ресурсу, заданному через IP #UnCheckedHost.java
+ */
 
 public class UnCheckedHost {
     public static void main(String[] args) {

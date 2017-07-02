@@ -1,12 +1,14 @@
 package by.bsu.maps;
 
-/* # 17 # создание хэш-карты и замена элемента по ключу # DemoHashMap.java */
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
+
+/**
+ * # 17 # создание хэш-карты и замена элемента по ключу # DemoHashMap.java
+ */
 
 public class DemoHashMap {
     public static void main(String[] args) {

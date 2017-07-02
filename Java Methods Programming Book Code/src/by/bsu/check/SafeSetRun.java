@@ -1,14 +1,19 @@
 package by.bsu.check;
 
-/* # 22 # проверяемая коллекция # SafeSetRun.java */
-
 import by.bsu.collection.Order;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+
+
+/**
+ * # 22 # проверяемая коллекция # SafeSetRun.java
+ */
 
 public class SafeSetRun {
     public static void main(String args[]) {
-        Set <Order> orders;
+        Set<Order> orders;
         // orders = new HashSet(); // заменяемый код на jdk1.4 и ниже
         orders = Collections.checkedSet(new HashSet<>(), Order.class);
 

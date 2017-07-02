@@ -3,6 +3,11 @@ package by.bsu.fund.run;
 import by.bsu.fund.bean.Coin;
 import by.bsu.fund.action.CompareCoin;
 
+/**
+ * # 10 # создание объекта, доступ к полям и методам объекта # CompareCoin.java
+ * # Runner.java
+ */
+
 public class Runner {
 	public static void main(String[] args) {
 		Coin ob1 = new Coin();
@@ -16,3 +21,13 @@ public class Runner {
 		ca.compareDiameter(ob1, ob2);
 	}
 }
+
+// # 8 # демонстрация последствий нарушения инкапсуляции # Runner.java
+//public class Runner {
+//	public static void main(String[ ] args) {
+//		Coin ob = new Coin();
+//		ob.diameter = -0.12; // некорректно: прямой доступ
+//		ob.setWeight(100);
+//		// ob.weight = -150; // поле недоступно: compile error
+//	}
+//}

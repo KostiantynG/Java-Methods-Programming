@@ -1,12 +1,19 @@
 package by.bsu.set;
 
-/* # 14 # использование множества для вывода всех уникальных слов из файла #
-DemoHashSet.java */
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.TreeSet;
 
-import java.io.*;
-import java.util.*;
+/**
+ * # 14 # использование множества для вывода всех уникальных слов из файла #
+ * DemoHashSet.java
+ */
+
 public class DemoHashSet {
-    public static void main(String[ ] args) {
+    public static void main(String[] args) {
         HashSet<String> words = new HashSet<>(100);
         long callTime = System.nanoTime();
         Scanner scan = null;
