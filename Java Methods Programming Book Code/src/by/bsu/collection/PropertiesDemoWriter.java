@@ -18,7 +18,7 @@ public class PropertiesDemoWriter {
             props.setProperty("db.password", "pass");
             props.setProperty("db.poolsize", "5");
             // запись properties-файла в папку prop проекта
-            props.store(new FileWriter("prop" + File.separator + "database.properties"), null);
+            props.store(new FileWriter("D:" + File.separator + "JavaProjects" + File.separator + "Java-Methods-Programming" + File.separator + "Java Methods Programming Book Code" + File.separator + "prop" + File.separator + "database.properties"), null);
         } catch (IOException e) {
             e.printStackTrace();
         }
