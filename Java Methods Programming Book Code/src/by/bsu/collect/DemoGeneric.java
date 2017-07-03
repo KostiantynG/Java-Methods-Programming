@@ -25,7 +25,6 @@ public class DemoGeneric {
         // ошибка компиляции
         // компилятор не позволит добавить "посторонний" тип
 
-        System.out.print(list);
-        // удобный вывод
+        System.out.print(list); // удобный вывод
     }
 }

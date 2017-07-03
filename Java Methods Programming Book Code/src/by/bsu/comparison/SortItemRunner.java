@@ -11,26 +11,31 @@ import by.bsu.collection.Item;
 
 public class SortItemRunner {
     public static void main(String[ ] args) {
-        ArrayList<Item> p = new ArrayList<Item>() {
+        ArrayList<Item> items = new ArrayList<Item>() {
             {
-                add(new Item(52201, 9.75f, "T-Shirt"));
-                add(new Item(52127, 13.99f, "Dress"));
-                add(new Item(47063, 45.95f, "Jeans"));
-                add(new Item(90428, 60.9f, "Gloves"));
-                add(new Item(53295, 31f, "Shirt"));
-                add(new Item(63220, 14.9f, "Tie"));
+                add(new Item(1, 1.00f, "C"));
+                add(new Item(2, 2.00f, "B"));
+                add(new Item(3, 3.00f, "A"));
             }
         };
-// создание компаратора
+        // создание компаратора
         Comparator<Item> comp = new Comparator<Item>() {
             // сравнение для сортировки по убыванию цены товара
             public int compare(Item one, Item two) {
                 return Double.compare(two.getPrice(), one.getPrice());
             }
-// public boolean equals(Object ob) { /* реализация */ }
+            // public boolean equals(Object ob) { /* реализация */ }
         };
-// сортировка списка объектов
-        Collections.sort(p, comp);
-        System.out.println(p);
+
+        //lambda Double sort
+        items.sort((o1, o2)->Double.compare(o2.getPrice(),o1.getPrice()));
+        System.out.println(items);
+        //lambda String sort
+        items.sort((o1, o2)->o2.getName().compareTo(o1.getName()));
+        System.out.println(items);
+
+        // сортировка списка объектов
+        Collections.sort(items, comp);
+        System.out.println(items);
     }
 }

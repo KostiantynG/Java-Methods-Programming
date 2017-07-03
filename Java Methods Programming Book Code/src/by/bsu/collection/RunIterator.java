@@ -16,8 +16,8 @@ public class RunIterator {
                 add(new Order(217, 1.7f));
             }
         };
-        FindOrder fo = new FindOrder();
-        List<Order> res = fo.findBiggerAmountOrder(10f, orders);
+        FindOrder findOrder = new FindOrder();
+        List<Order> res = findOrder.findBiggerAmountOrder(10f, orders);
         System.out.println(res);
     }
 }
