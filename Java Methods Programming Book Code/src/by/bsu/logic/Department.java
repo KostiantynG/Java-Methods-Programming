@@ -3,7 +3,6 @@ package by.bsu.logic;
 /**
  * # 8 # использование логических блоков при объявлении класса # Department.java #DemoLogic.java
  */
-
 public class Department {
     {
         System.out.println("logic (1) id=" + this.id);

@@ -3,7 +3,6 @@ package by.bsu.fund.bean;
 /**
  * # 9 # «туго» инкапсулированный класс (Java Bean) # Coin.java
  */
-
 public class Coin {
     private double diameter; // правильная инкапсуляция
     private double weight; // правильная инкапсуляция

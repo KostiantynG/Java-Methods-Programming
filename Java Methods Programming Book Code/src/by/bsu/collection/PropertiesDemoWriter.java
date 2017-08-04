@@ -8,7 +8,6 @@ import java.util.Properties;
 /**
  * # 20 # создание экземпляра и файла properties # PropertiesDemoWriter.java
  */
-
 public class PropertiesDemoWriter {
     public static void main(String[] args) {
         Properties props = new Properties();

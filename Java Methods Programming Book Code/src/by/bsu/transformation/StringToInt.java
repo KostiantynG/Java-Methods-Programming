@@ -3,7 +3,6 @@ package by.bsu.transformation;
 /**
  * # 6 # преобразование строки в целое число # StringToInt.java
  */
-
 public class StringToInt {
     public static void main(String[] args) {
         String arg = "71"; // 071 или 0x71или 0b1000111

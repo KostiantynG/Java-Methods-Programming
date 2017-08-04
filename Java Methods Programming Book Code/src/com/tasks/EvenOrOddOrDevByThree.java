@@ -1,4 +1,4 @@
-package Tasks;
+package com.tasks;
 
 public class EvenOrOddOrDevByThree {
     public static void main(String[] args) {

@@ -3,7 +3,6 @@ package by.bsu.transfer.bean;
 /**
  * # 2 # конструкторы # Account.java
  */
-
 public class Account {
     private long id;
     private double amount;

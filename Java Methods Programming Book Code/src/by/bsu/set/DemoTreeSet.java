@@ -7,7 +7,6 @@ import java.util.TreeSet;
 /**
  * # 15 # создание множества из списка и его методы # DemoTreeSet.java
  */
-
 public class DemoTreeSet {
     public static void main(String[ ] args) {
         ArrayList<String> list = new ArrayList<>();

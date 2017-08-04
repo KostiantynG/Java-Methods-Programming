@@ -8,7 +8,6 @@ import java.util.List;
 /**
  * # 23 # применение некоторых алгоритмов # AlgorithmDemo.java
  */
-
 public class AlgoritmDemo {
     public static void main(String[] args) {
 //        Comparator<Integer> comp = new Comparator<Integer>() {

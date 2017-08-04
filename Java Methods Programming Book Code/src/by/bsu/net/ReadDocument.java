@@ -9,7 +9,6 @@ import java.net.URL;
 /**
  * # 4 # чтение документа из Интернета # ReadDocument.java
  */
-
 public class ReadDocument {
     public static void main(String[] args) {
         URL url = null;

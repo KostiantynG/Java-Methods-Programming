@@ -18,7 +18,6 @@ import javax.swing.JApplet;
  * <applet code= by.bsu.net.ShowDocument.class></applet>
  * </body></html>
  */
-
 public class ShowDocument extends JApplet {
     private URL bsu = null;
     public String getBaseURL() {

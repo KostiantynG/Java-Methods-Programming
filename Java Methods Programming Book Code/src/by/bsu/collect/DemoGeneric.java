@@ -5,7 +5,6 @@ import java.util.ArrayList;
 /**
  * # 1 # создание параметризованной коллекции # DemoGeneric.java
  */
-
 public class DemoGeneric {
 
     public static void main(String args[]) {

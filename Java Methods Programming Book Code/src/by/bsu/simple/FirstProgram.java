@@ -3,7 +3,6 @@ package by.bsu.simple;
 /**
  * # 2 # простое объектно-ориентированное приложение # FirstProgram.java
  */
-
 public class FirstProgram {
     public static void main(String[] args) {
         // объявление и создание объекта firstObject
@@ -16,7 +15,6 @@ public class FirstProgram {
 /**
  * # 3 # простой класс # SloganAction
  */
-
 class SloganAction {
     void printSlogan() { // определение метода
         // вывод строки

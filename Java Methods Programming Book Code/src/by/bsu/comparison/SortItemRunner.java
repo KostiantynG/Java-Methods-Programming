@@ -8,7 +8,6 @@ import by.bsu.collection.Item;
 /**
  * # 8 # сортировка списка по полю, определенному в классе comparator-е #SortItemRunner.java
  */
-
 public class SortItemRunner {
     public static void main(String[ ] args) {
         ArrayList<Item> items = new ArrayList<Item>() {

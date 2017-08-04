@@ -5,7 +5,6 @@ import java.util.EnumSet;
 /**
  * # 16 # иcпользование множества enum-типов # CarManufacturer.java #UseEnumSet.java
  */
-
 public class UseEnumSet {
     public static void main(String[] args) {
         /* мн ожество japanAuto содержит элементы типа

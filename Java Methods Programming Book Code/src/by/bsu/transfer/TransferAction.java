@@ -5,7 +5,6 @@ import by.bsu.transfer.bean.Account;
 /**
  * # 3 # перевод денег со счета на счет # TransferAction.java
  */
-
 public class TransferAction {
     private double transactionAmount;
 

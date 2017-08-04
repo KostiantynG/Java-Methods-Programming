@@ -1,4 +1,4 @@
-package algorithms.binarysearch;
+package com.algorithms.binarysearch;
 
 /******************************************************************************
  *  Compilation:  javac BinarySearch.java
@@ -86,7 +86,7 @@ public class BinarySearch {
     }
 
     /**
-     * Reads in a sequence of integers from the whitelist file, specified as
+     * Reads in a sequence of integers from the whitelist file, specified MergeSort
      * a command-line argument; reads in integers from standard input;
      * prints to standard output those integers that do <em>not</em> appear in the file.
      *

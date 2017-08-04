@@ -7,7 +7,6 @@ import java.net.UnknownHostException;
 /**
  * # 2 # присваивание фиктивного имени реальному ресурсу, заданному через IP #UnCheckedHost.java
  */
-
 public class UnCheckedHost {
     public static void main(String[] args) {
         // задание IP-адреса в виде массива

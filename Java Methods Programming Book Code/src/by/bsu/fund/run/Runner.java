@@ -7,7 +7,6 @@ import by.bsu.fund.action.CompareCoin;
  * # 10 # создание объекта, доступ к полям и методам объекта # CompareCoin.java
  * # Runner.java
  */
-
 public class Runner {
 	public static void main(String[] args) {
 		Coin ob1 = new Coin();

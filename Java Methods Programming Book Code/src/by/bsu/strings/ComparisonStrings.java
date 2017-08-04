@@ -3,7 +3,6 @@ package by.bsu.strings;
 /**
  * # 12 # сравнение ссылок и объектов # ComparisonStrings.java
  */
-
 public class ComparisonStrings {
     public static void main(String[] args) {
         String s1, s2;

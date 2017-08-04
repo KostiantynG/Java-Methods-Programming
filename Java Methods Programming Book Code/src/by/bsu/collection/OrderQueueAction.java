@@ -6,7 +6,6 @@ import java.util.Queue;
 /**
  * # 12 # двунаправленный список и очередь # OrderQueueAction.java
  */
-
 public class OrderQueueAction {
     public static void main(String[] args) {
         LinkedList<Order> orders = new LinkedList<Order>() {

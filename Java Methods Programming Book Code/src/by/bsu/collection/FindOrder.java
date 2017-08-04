@@ -7,7 +7,6 @@ import java.util.Iterator;
 /**
  * # 5 # методы класса ArrayList и интерфейса Iterator # RunIterator.java # FindOrder.java
  */
-
 public class FindOrder {
     public List<Order> findBiggerAmountOrder(float bigAmount, List<Order> orders) {
         ArrayList<Order> bigPrices = new ArrayList<>();

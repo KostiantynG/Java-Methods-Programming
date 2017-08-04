@@ -6,7 +6,6 @@ package by.bsu.arg;
  * Запуск этого приложения осуществляется с помощью следующей командной строки вида:
  * java by.bsu.arg.PrintArguments 2012 Oracle "Java SE 7"
  */
-
 public class PrintArguments {
     public static void main(String[] args) {
         for (String str : args) {

@@ -9,7 +9,6 @@ import java.util.Set;
 /**
  * # 17 # создание хэш-карты и замена элемента по ключу # DemoHashMap.java
  */
-
 public class DemoHashMap {
     public static void main(String[] args) {
         HashMap<String, Integer> hm = new HashMap<String, Integer>(3) {

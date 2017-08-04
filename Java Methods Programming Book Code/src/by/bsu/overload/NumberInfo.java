@@ -3,7 +3,6 @@ package by.bsu.overload;
 /**
  * # 9 # вызов перегруженных методов # NumberInfo.java
  */
-
 public class NumberInfo {
     public static void viewNum(Integer i) { // 1
         System.out.printf("Integer=%d%n", i);

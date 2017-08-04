@@ -8,7 +8,6 @@ import java.net.Socket;
 /**
  * # 6 # передача клиенту строки # SmallServerSocket.java
  */
-
 public class SmallServerSocket {
     public static void main(String[] args) {
         Socket s = null;

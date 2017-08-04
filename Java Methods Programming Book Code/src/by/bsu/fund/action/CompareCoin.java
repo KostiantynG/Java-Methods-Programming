@@ -6,7 +6,6 @@ import by.bsu.fund.bean.Coin;
  * # 10 # создание объекта, доступ к полям и методам объекта # CompareCoin.java
  * # Runner.java
  */
-
 public class CompareCoin {
     public void compareDiameter(Coin first, Coin second) {
         double delta = first.getDiameter() - second.getDiameter();

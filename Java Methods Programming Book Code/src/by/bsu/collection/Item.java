@@ -5,7 +5,6 @@ import java.util.Comparator;
 /**
  * # 11 # класс-сущность с внутренними классами-компараторами # Item.java #
  */
-
 public class Item {
     private int itemId;
     private float price;

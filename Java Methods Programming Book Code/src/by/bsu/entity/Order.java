@@ -3,7 +3,6 @@ package by.bsu.entity; // класс доступен из других паке
 /**
  * # 1 # типы атрибутов и переменных # Order.java
  */
-
 public class Order {
     private int id; // переменная экземпляра класса
     static int bonus; // переменная класса

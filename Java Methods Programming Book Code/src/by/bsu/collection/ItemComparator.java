@@ -5,7 +5,6 @@ import java.util.Comparator;
 /**
  * # 9 # возможность сортировки по всем полям класса # ItemComparator.java
  */
-
 public class ItemComparator implements Comparator<Item> {
     private ItemEnum sortingIndex;
 

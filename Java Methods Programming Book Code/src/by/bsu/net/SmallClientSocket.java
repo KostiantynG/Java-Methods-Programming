@@ -9,7 +9,6 @@ import java.io.InputStreamReader;
  * # 7 # получение клиентом строки # SmallClientSocket.java
  * Перед запуском SmallClientSocket запустить SmallServerSocket
  */
-
 public class SmallClientSocket {
     public static void main(String[] args) {
         Socket socket = null;

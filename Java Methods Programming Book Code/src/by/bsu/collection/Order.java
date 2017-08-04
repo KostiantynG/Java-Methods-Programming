@@ -5,7 +5,6 @@ package by.bsu.collection;
  * # 13 # пользовательский класс, объект которого может быть добавлен в очередь
  * PriorityQueue и множество TreeSet # Order.java
  */
-
 public class Order implements Comparable<Order> {
     private int orderId;
     private float amount;

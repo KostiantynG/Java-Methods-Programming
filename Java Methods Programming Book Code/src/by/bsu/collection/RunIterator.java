@@ -6,7 +6,6 @@ import java.util.ArrayList;
 /**
  * # 5 # методы класса ArrayList и интерфейса Iterator # RunIterator.java # FindOrder.java
  */
-
 public class RunIterator {
     public static void main(String[] args) {
         ArrayList<Order> orders = new ArrayList<Order>() {

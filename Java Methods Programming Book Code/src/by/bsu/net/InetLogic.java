@@ -6,7 +6,6 @@ import java.net.UnknownHostException;
 /**
  * # 1 # вывод IP-адреса компьютера и Интернет-ресурса # InetLogic.java
  */
-
 public class InetLogic {
     public static void main(String[] args) {
         InetAddress currentIP = null;

@@ -5,7 +5,6 @@ import by.bsu.transfer.bean.Account;
 /**
  * # 4 # создание экземпляров и выполнение действий # Runner.java
  */
-
 public class Runner {
     public static void main(String[] args) {
 

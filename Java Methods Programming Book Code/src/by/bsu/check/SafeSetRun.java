@@ -6,11 +6,9 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-
 /**
  * # 22 # проверяемая коллекция # SafeSetRun.java
  */
-
 public class SafeSetRun {
     public static void main(String args[]) {
         Set<Order> orders;
