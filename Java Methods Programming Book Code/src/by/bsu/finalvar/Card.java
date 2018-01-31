@@ -1,5 +1,8 @@
 package by.bsu.finalvar;
 
+/**
+ * # 6 # final-поля и переменные # Card.java
+ */
 public class Card { // инициализированная константа экземпляра
     public final int ID = (int) (Math.random() * 10_000_000); // неинициализированная
     // константа

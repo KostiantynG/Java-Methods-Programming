@@ -1,5 +1,8 @@
 package by.bsu.template;
 
+/**
+ * # 11 # создание и использование объектов параметризованного класса #Message.java # Runner.java
+ */
 public class Runner {
 	public static void main(String[] args) { // параметризация типом Integer
 		Message<Integer> ob1 = new Message<>();

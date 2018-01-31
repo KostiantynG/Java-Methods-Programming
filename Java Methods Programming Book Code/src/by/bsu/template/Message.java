@@ -1,4 +1,8 @@
 package by.bsu.template;
+
+/**
+ * # 11 # создание и использование объектов параметризованного класса #Message.java # Runner.java
+ */
 public class Message<T> {
 	private T value;
 
@@ -24,4 +28,3 @@ public class Message<T> {
 		return value.getClass().getName() + " :" + value;
 	}
 }
-
