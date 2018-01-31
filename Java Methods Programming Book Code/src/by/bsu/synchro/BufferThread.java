@@ -4,8 +4,8 @@ package by.bsu.synchro;
  * # 14 # потокобезопасность класса StringBuffer # BufferThread.java
  */
 public class BufferThread {
-    private static int counter = 0;
     private static final StringBuffer buffer = new StringBuffer(); // заменить на StringBuilder и посмотреть, что будет
+    private static int counter = 0;
 
     public static void main(String args[]) throws InterruptedException {
         new Thread(() -> {
