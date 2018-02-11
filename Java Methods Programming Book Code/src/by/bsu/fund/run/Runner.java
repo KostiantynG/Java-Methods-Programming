@@ -15,7 +15,7 @@ public class Runner {
 		ob1.setWeight(150);
 		Coin ob2 = new Coin();
 		ob2.setDiameter(0.21);
-		ob2.setWeight(170);
+		ob2.setWeight(170); 
 		CompareCoin ca = new CompareCoin();
 		ca.compareDiameter(ob1, ob2);
 	}
@@ -29,4 +29,4 @@ public class Runner {
 //		ob.setWeight(100);
 //		// ob.weight = -150; // поле недоступно: compile error
 //	}
-//}
+//
